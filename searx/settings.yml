@@ -2209,6 +2209,27 @@ engines:
     shortcut: wttr
     timeout: 9.0
 
+  - name: yandex
+    engine: yandex
+    categories: general
+    yandex_category: web
+    shortcut: yd
+    disabled: true
+
+  - name: yandex images
+    engine: yandex
+    categories: images
+    yandex_category: images
+    shortcut: ydi
+    disabled: true
+
+  - name: yandex videos
+    engine: yandex
+    categories: videos
+    yandex_category: videos
+    shortcut: ydv
+    disabled: true
+
   - name: yummly
     engine: yummly
     shortcut: yum
