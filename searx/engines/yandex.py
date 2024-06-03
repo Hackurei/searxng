@@ -166,7 +166,10 @@ def response(resp):
 
         json_resp = utils.js_variable_to_python(content_between_tags)
 
-        print(json_resp)
+        # save to a file
+        #with open('/path/to/yandexdump.txt', 'w') as f:
+        #sys.stdout = f
+        #print(json_resp)
 
         results = []
         for result in json_resp['serpList']['items']['entities']:
